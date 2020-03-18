@@ -1,0 +1,28 @@
+{
+  "name": "@zeanium/database-mssql",
+  "version": "1.0.1",
+  "description": "Microsoft SQL Server Node.js Client Base On Zeanium Framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeanium/zeanium-database-mssql.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access public",
+    "unpublish": "npm unpublish --access public  --force"
+  },
+  "keywords": [
+    "mssql",
+    "database",
+    "database-mssql",
+    "zeanium",
+    "nodejs"
+  ],
+  "author": "yangyxu",
+  "email": "xuyy0618@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "@zeanium/core": "latest",
+    "mssql": "^6.2.0"
+  }
+}
